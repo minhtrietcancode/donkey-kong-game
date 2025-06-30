@@ -6,7 +6,6 @@ A Java-based game using the Bagel Library where players control Mario to defeat 
 
 Shadow Donkey Kong is a 2D platformer game implemented in Java using the Bagel Library. The player controls Mario, navigating through platforms, collecting items, and ultimately defeating Donkey Kong.
 
-*This project acknowledges the use of the solution provided for Project 1. Special thanks to the tutor team for their beautiful solution.*
 
 ## Gameplay
 
@@ -77,14 +76,7 @@ This directory contains all game assets and configuration files:
 - Physics-based gameplay with platforms and gravity
 - Multiple game screens: home, levels, and end game
 
-## Assumption
-- With the bonus score for time left, I will assume that when mario finish level 1 and then come to level 2, the current
-score for player will also be added with the bonus score of time left of level 1, and then when player finish level 2, 
-they will still get the bonus score for time left in level 2 in the same way with level 1 bonus score
-- When timeout, I assume that player lost, as here in the description, it said that Mario will win if shoot donkey 5 times 
-by bullet or touch donkey with hammer, so when timeout, I will assume it to be a lost condition and show the lost screen
-- And for the score when timeout, I will display the score user got for what they got, as timeout is not a position where 
-Mario death, so I will not show a lost screen with default score = 0 for losing condition. 
+
 ## Author
 
 Minh Triet Pham
